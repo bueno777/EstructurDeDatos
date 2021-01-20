@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="34.0" layoutY="44.0" text="Mi Primer Programa" textAlignment="CENTER" textFill="#8a0909">
+         <font>
+            <Font name="Bauhaus 93" size="51.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="txtEdad" layoutX="176.0" layoutY="162.0" onAction="#event" />
+      <Label fx:id="lblTitulo" layoutX="209.0" layoutY="121.0" text="Inserta Tu Edad" />
+      <Button layoutX="225.0" layoutY="217.0" mnemonicParsing="false" onAction="#event" text="Aceptar" />
+   </children>
+</AnchorPane>
