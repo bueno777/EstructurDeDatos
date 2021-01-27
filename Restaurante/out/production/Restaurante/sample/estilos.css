@@ -1,0 +1,17 @@
+.fondo{
+    -fx-background-image: url("./img/restaurant-interior.jpg");
+    -fx-background-size: cover;
+}
+.buttonAceptar{
+    -fx-background-color: #FF4E50;
+    -fx-background-radius: 30px;
+
+}
+.textfield{
+    -fx-background-color: #E1F5C4;
+    -fx-background-radius: 15px;
+}
+
+.cabecera{
+ -fx-background-color: #E1F5C4;
+}
